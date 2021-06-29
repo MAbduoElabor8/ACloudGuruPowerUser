@@ -1,0 +1,18 @@
+{
+    "name": "A Cloud Guru - Power User",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "js": [
+                "js/contentscript.js"
+            ],
+            "matches": [
+                "https://learn.acloud.guru/*/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "js/script.js"
+    ]
+}
